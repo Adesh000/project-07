@@ -1,0 +1,154 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px;
+    margin-right: 0;
+}
+
+
+.nav-items {
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Poppins','Fredoka One';
+    font-size: 25px;
+    margin-left: 20px;
+    padding: 0 25px;
+}
+.nav-item {
+    font-weight: 500;
+}
+
+.nav-item:hover {
+    font-weight: 900;
+    color: #FE5E35;
+}
+
+nav:last-child {
+    padding-right: 0;
+    margin-left: 20px;
+}
+
+.intro-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 80px;
+    font-family: 'Poppins','Fredoka One';
+}
+
+div > h3 {
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: 0;
+}
+ div > h1 {
+    font-family: 'Fredoka One';
+    font-size: 70px;
+    margin-top: 0;
+ }
+
+ .sub-headline {
+    font-size: 25px;
+    font-weight: 100;
+    margin-left: 100px;
+ }
+ .sub-headline > img {
+    background-color: #FE5E35;
+    padding: 5px;
+    border-radius: 17px;
+ }
+
+ .text {
+    color: #758283;
+    font-size: 15px;
+    font-weight: 100;
+ }
+
+ .action-btn {
+    border: none;
+    color: #fff;
+    background-color: #FE5E35;
+    font-size: 25px;
+    padding: 20px 50px;
+    border-radius: 40px;
+    margin: 20px;
+ }
+
+ .right-section {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .headphone-div :nth-child(3) {
+    position: relative;
+    bottom: 400px;
+    z-index: 1;
+ }
+
+.discount {
+    position: relative;
+    top: 350px;
+    right: 50px;
+    z-index: 2;
+}
+
+.discount-content {
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    position: relative;
+    top: 170px;
+    right: 261px;
+    z-index: 3;
+}
+.discount-content > h4 {
+    margin-bottom: 0;
+}
+
+.dots {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 400px;
+}
+.dot {
+    width: 100px;
+}
+.yellow-dot {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: yellow;
+}
+
+.tomato-dot {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: red;
+}
+.black-dot {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.right-section > button {
+    position: relative;
+    bottom: 380px;
+}
